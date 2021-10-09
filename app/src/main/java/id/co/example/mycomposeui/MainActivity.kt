@@ -9,6 +9,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import id.co.example.mycomposeui.ui.theme.MyComposeUITheme
+import id.co.example.mycomposeui.widget.ColumnLayoutDemo
 import id.co.example.mycomposeui.widget.RowLayoutDemo
 import id.co.example.mycomposeui.widget.ToastDemo
 
@@ -23,7 +24,10 @@ class MainActivity : ComponentActivity() {
 //                    ToastDemo();
 
                     //RowLayout
-                    RowLayoutDemo()
+//                    RowLayoutDemo()
+
+                    //ColumnLayout
+                    ColumnLayoutDemo()
                 }
             }
         }
