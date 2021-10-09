@@ -9,6 +9,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import id.co.example.mycomposeui.ui.theme.MyComposeUITheme
+import id.co.example.mycomposeui.widget.ToastDemo
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,7 +18,8 @@ class MainActivity : ComponentActivity() {
             MyComposeUITheme {
                 // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.background) {
-                    Greeting("Android")
+                    //Toast
+                    ToastDemo();
                 }
             }
         }
@@ -33,6 +35,6 @@ fun Greeting(name: String) {
 @Composable
 fun DefaultPreview() {
     MyComposeUITheme {
-        Greeting("Android")
+        ToastDemo()
     }
 }
