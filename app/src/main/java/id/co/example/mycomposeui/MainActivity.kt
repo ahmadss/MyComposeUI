@@ -9,6 +9,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import id.co.example.mycomposeui.ui.theme.MyComposeUITheme
+import id.co.example.mycomposeui.widget.RowLayoutDemo
 import id.co.example.mycomposeui.widget.ToastDemo
 
 class MainActivity : ComponentActivity() {
@@ -19,7 +20,10 @@ class MainActivity : ComponentActivity() {
                 // A surface container using the 'background' color from the theme
                 Surface(color = MaterialTheme.colors.background) {
                     //Toast
-                    ToastDemo();
+//                    ToastDemo();
+
+                    //RowLayout
+                    RowLayoutDemo()
                 }
             }
         }
@@ -35,6 +39,6 @@ fun Greeting(name: String) {
 @Composable
 fun DefaultPreview() {
     MyComposeUITheme {
-        ToastDemo()
+//        ToastDemo()
     }
 }
