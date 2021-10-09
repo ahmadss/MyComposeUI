@@ -11,6 +11,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import id.co.example.mycomposeui.ui.theme.MyComposeUITheme
 import id.co.example.mycomposeui.widget.ColumnLayoutDemo
 import id.co.example.mycomposeui.widget.RowLayoutDemo
+import id.co.example.mycomposeui.widget.TextFieldDemo
 import id.co.example.mycomposeui.widget.ToastDemo
 
 class MainActivity : ComponentActivity() {
@@ -27,7 +28,10 @@ class MainActivity : ComponentActivity() {
 //                    RowLayoutDemo()
 
                     //ColumnLayout
-                    ColumnLayoutDemo()
+//                    ColumnLayoutDemo()
+
+                    //TextField
+                    TextFieldDemo()
                 }
             }
         }
