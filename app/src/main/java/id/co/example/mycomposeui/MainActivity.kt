@@ -48,7 +48,10 @@ class MainActivity : ComponentActivity() {
 //                    DatePickerDemo(context = this@MainActivity)
 
                     //card
-                    CardDemo()
+//                    CardDemo()
+
+                    //CheckBoc
+                    CheckBoxDemo()
 
                     //Thema Demo
 //                    ThemeDemo()
