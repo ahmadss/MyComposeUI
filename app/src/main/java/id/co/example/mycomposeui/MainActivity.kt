@@ -45,7 +45,10 @@ class MainActivity : ComponentActivity() {
 //                    ButtonDemo()
 
                     //Datepicker
-                    DatePickerDemo(context = this@MainActivity)
+//                    DatePickerDemo(context = this@MainActivity)
+
+                    //Thema Demo
+                    ThemeDemo()
                 }
             }
         }
