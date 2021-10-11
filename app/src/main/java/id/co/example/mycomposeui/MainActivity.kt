@@ -36,7 +36,10 @@ class MainActivity : ComponentActivity() {
 //                    ThemeDem()
 
                     //Text
-                    TextDemo()
+//                    TextDemo()
+
+                    //Alert Dialog
+                    AlertDialogDemo()
                 }
             }
         }
