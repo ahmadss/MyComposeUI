@@ -39,7 +39,10 @@ class MainActivity : ComponentActivity() {
 //                    TextDemo()
 
                     //Alert Dialog
-                    AlertDialogDemo()
+//                    AlertDialogDemo()
+
+                    //ButtonWidhtAndHeight
+                    ButtonDemo()
                 }
             }
         }
