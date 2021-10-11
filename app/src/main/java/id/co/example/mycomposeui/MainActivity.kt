@@ -51,8 +51,19 @@ class MainActivity : ComponentActivity() {
 //                    CardDemo()
 
                     //CheckBoc
-                    CheckBoxDemo()
+//                    CheckBoxDemo()
 
+                    // floating menu
+//                    FloatingActionMenu()
+
+//Image
+//                    ImageDemo()
+                    
+                    //image transparancy
+                    //imageTransparancyDemo()
+
+                    //Rdio Button
+                    RadioButtonDemo()
                     //Thema Demo
 //                    ThemeDemo()
                 }
