@@ -3,18 +3,17 @@ package id.co.example.mycomposeui
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.activity.viewModels
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import id.co.example.mycomposeui.ui.theme.MyComposeUITheme
-import id.co.example.mycomposeui.widget.ColumnLayoutDemo
-import id.co.example.mycomposeui.widget.RowLayoutDemo
-import id.co.example.mycomposeui.widget.TextFieldDemo
-import id.co.example.mycomposeui.widget.ToastDemo
+import id.co.example.mycomposeui.widget.*
 
 class MainActivity : ComponentActivity() {
+//    val customerViewModel by viewModels<Cu>()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -31,7 +30,13 @@ class MainActivity : ComponentActivity() {
 //                    ColumnLayoutDemo()
 
                     //TextField
-                    TextFieldDemo()
+//                    TextFieldDemo()
+
+//                    Theme
+//                    ThemeDem()
+
+                    //Text
+                    TextDemo()
                 }
             }
         }
