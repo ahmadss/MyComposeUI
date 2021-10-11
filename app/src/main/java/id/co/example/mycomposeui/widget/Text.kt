@@ -168,7 +168,7 @@ fun TextDemo() {
         )
         Spacer(modifier = Modifier.padding(8.dp))
         SelectionContainer {
-            Text("text ini di blok",)
+            Text("text ini bisa di blok atau dipilih",)
         }
         Spacer(modifier = Modifier.padding(8.dp))
         Text(
