@@ -62,8 +62,14 @@ class MainActivity : ComponentActivity() {
                     //image transparancy
                     //imageTransparancyDemo()
 
+                    //CircularImage
+//                    CircularImageViewDemo()
+
+//                    CircularProgress
+                    CircularProgressBarDemo()
+
                     //Rdio Button
-                    RadioButtonDemo()
+//                    RadioButtonDemo()
                     //Thema Demo
 //                    ThemeDemo()
                 }
