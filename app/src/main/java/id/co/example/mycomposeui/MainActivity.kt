@@ -42,7 +42,10 @@ class MainActivity : ComponentActivity() {
 //                    AlertDialogDemo()
 
                     //ButtonWidhtAndHeight
-                    ButtonDemo()
+//                    ButtonDemo()
+
+                    //Datepicker
+                    DatePickerDemo(context = this@MainActivity)
                 }
             }
         }
